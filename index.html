@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Никита & Карина — 7 июля 2027</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat:wght@400;700&family=Comforter&family=Comforter+Brush&family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Kalam:wght@400;700&family=Klee+One&family=Lobster&family=Marck+Script&family=Pacifico&family=Pangolin&family=Parisienne&family=Sacramento&family=Shadows+Into+Light&family=Sriracha&family=Yeseva+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="site-bg" aria-hidden="true"></div>
+<!-- ================= НАВИГАЦИЯ ================= -->
+<header class="nav" id="nav">
+  <a href="#hero" class="nav__logo">Н &amp; К</a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#story">История</a>
+    <a href="#gallery">Моменты</a>
+    <a href="#location">Локация</a>
+    <a href="#timeline">Тайминг</a>
+    <a href="#dresscode">Дресс-код</a>
+    <a href="#wishes">Пожелания</a>
+    <a href="#contacts">Контакты</a>
+    <a href="#rsvp">Анкета</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-label="Открыть меню">☰</button>
+</header>
+
+<!-- ================= 1. HERO ================= -->
+<section class="hero" id="hero">
+  <div class="hero__inner">
+    <p class="hero__label">Мы приглашаем вас на нашу свадьбу</p>
+    <h1 class="hero__names">
+      Никита
+      <span class="hero__amp">&amp;</span>
+      Карина
+    </h1>
+    <div class="hero__date">7 июля 2027</div>
+
+    <div class="countdown" id="countdown">
+      <div class="countdown__item"><span class="countdown__num" data-cd="days">00</span><span class="countdown__cap">дней</span></div>
+      <div class="countdown__item"><span class="countdown__num" data-cd="hours">00</span><span class="countdown__cap">часов</span></div>
+      <div class="countdown__item"><span class="countdown__num" data-cd="minutes">00</span><span class="countdown__cap">минут</span></div>
+      <div class="countdown__item"><span class="countdown__num" data-cd="seconds">00</span><span class="countdown__cap">секунд</span></div>
+    </div>
+  </div>
+  <div class="hero__scroll">Листайте вниз<span></span></div>
+</section>
+
+<!-- ================= 2. ИСТОРИЯ ================= -->
+<section  id="story">
+  <div class="container">
+    <div class="section__head" data-reveal>
+      <p class="section__label"></p>
+      <h2 class="section__title">Наша история</h2>
+      <div class="section__divider"></div>
+      <p class="section__sub"></p>
+    </div>
+
+    <div class="story">
+      <article class="story__row" data-reveal>
+        <div class="story__img"><img src="photo/photo_We78.jpg" alt="Первая встреча"></div>
+        <div class="story__content">
+          <div class="story__year">2018-2021</div>
+          <h3 class="story__name">Школьные времена</h3>
+          <p class="story__text">Всё началось на уроке химии. Мы, два подростка, сидели за одной партой, переглядывались, рисовали в тетрадях друг друга, помогали с уроками и каждый раз, когда наши взгляды встречались, внутри что-то вздрагивало — словно маленькая искра, обещающая что-то большее.</p>
+        </div>
+      </article>
+
+      <article class="story__row" data-reveal>
+        <div class="story__img"><img src="photo/photo_We29.jpg" alt="Первое путешествие"></div>
+        <div class="story__content">
+          <div class="story__year">2021</div>
+          <h3 class="story__name">Студенческие времена</h3>
+          <p class="story__text">Школьные звонки остались позади, а впереди — взрослая жизнь, полная открытий и испытаний. Мы — студенты. Учимся быть не только влюблёнными, но и командой. Вместе взрослеем, становимся мудрее.</p>
+        </div>
+      </article>
+
+      <article class="story__row" data-reveal>
+        <div class="story__img"><img src="photo/photo_We61.jpg"></div>
+        <div class="story__content">
+          <div class="story__year">2026</div>
+          <h3 class="story__name">Начало совместной жизни</h3>
+          <p class="story__text">И вот начинается настоящая взрослая жизнь, мы встречаем её вместе. 
+Ремонт, первая работа. Мы учимся поддерживать друг друга — словом, взглядом, простым ужином после тяжёлого дня.
+Учимся уступать, взимать услышанное. Вместе мечтаем о будущем.</p>
+        </div>
+      </article>
+      
+      <article class="story__row" data-reveal>
+        <div class="story__img"><img src="photo/photo_We72.jpg" alt="Предложение"></div>
+        <div class="story__content">
+          <div class="story__year">2026</div>
+          <h3 class="story__name">Первое путешествие и Предложение</h3>
+          <p class="story__text">Наше первое путешествие. Крым дарил нам всплески ярких эмоций каждый день. Именно в этом месте, на фоне бирюзового моря, утеса, напоминающего выпрыгнувшего из моря дельфина, сказочного неба и гор, которые издалека наблюдали за нами , я задал самый важный вопрос в своей жизни. И твое «да» сделало этот пейзаж самым красивым на Земле.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3. ГАЛЕРЕЯ ================= -->
+<section  id="gallery">
+  
+  <!-- ФОТО У ЗАГОЛОВКА (Слева и Справа) -->
+  <img src="photo/photo_We4.jpg" alt="Момент 1" class="photo photo-title-left">
+  <img src="photo/photo_We37.jpg" alt="Момент 2" class="photo photo-title-right">
+
+  <!-- ЗАГОЛОВОК (z-index поднимет его выше фото) -->
+  <div class="section__head section__head--gallery" data-reveal>
+    <p class="section__label"></p>
+    <h2 class="section__title">Наши моменты</h2>
+    <div class="section__divider"></div>
+    <p class="section__sub">Несколько кадров, которые мы любим.</p>
+  </div>
+
+  <!-- НИЖНИЙ БЛОК ФОТО -->
+  <div class="scattered-gallery">
+    <img src="photo/Photo_We3.jpg" alt="Момент 3" class="photo photo-b1">
+    <img src="photo/photo_We69.jpg" alt="Момент 4" class="photo photo-b2">
+    <img src="photo/photo_We77.jpg" alt="Момент 5" class="photo photo-b3">
+    <img src="photo/photo_We5.jpg" alt="Момент 6" class="photo photo-b4">
+    <img src="photo/photo_We55.jpg" alt="Момент 7" class="photo photo-b5">
+    <img src="photo/photo_We62.jpg" alt="Момент 8" class="photo photo-b6">
+    <img src="photo/photo_We73.jpg" alt="Момент 9" class="photo photo-b7">
+    <img src="photo/photo_We68.jpg" alt="Момент 10" class="photo photo-b8">
+  </div>
+
+</section>
+<!-- ================= 4. ЛОКАЦИЯ ================= -->
+<section id="location">
+  <div class="container">
+    <div class="section__head" data-reveal>
+      <p class="section__label"></p>
+      <h2 class="section__title">Место проведения</h2>
+      <div class="section__divider"></div>
+    </div>
+
+    <div class="location">
+      <div data-reveal>
+        <p class="location__type">Бакетный зал</p>
+        <h3 class="location__title">«Времена года»</h3>
+        <p class="location__text">Расположен на живописном берегу Обского моря в окружении красивого леса, что создает идеальную атмосферу для нашей свадьбы</p>
+        <ul class="location__meta">
+          <li><b>Адрес</b><span>Банкетный зал; ул. Зелёная Роща, 10/1, Бердск</span></li>
+          <li><b>Сбор гостей</b><span>15:30</span></li>
+          <li><b>Трансфер</b><span>Автобус от Дворца бракосочетания в 13:00</span></li>
+        </ul>
+        <a class="btn" href="https://yandex.ru/maps/-/CXr1eG4s" target="_blank" rel="noopener">Открыть в Яндекс картах</a>
+      </div>
+
+      <div class="location__map" data-reveal>
+       <iframe id="map_991041421" frameborder="0" width="600px" height="600px" src="https://makemap.2gis.ru/widget?data=eJw1UFtrwjAU_i9njytyTG-m4EMXmReCtDIY2_Ch2NhFalPS6KbF_76kuvMUznfJ-b4elC6FFuVcqKMwWooOkq8ezKUVkMCrKMxJC_Cg1aoV2gx4DztVK23xp_2eRogWN9LUToGra27K-Qt-8PwsZ_mZzlPkcd4ZNkb-ZjFGkR82h5_p1MpK0e20bI1UjRVni_QZV4u8WzuSdkYMub-RlIXLNfORz_LTJZW44ptq7QyvD8O0Qp7lZ8PQvmXG6E9WDR9cl00pfiEZ4__cPKjuYS8uyiNppmRjLH-nbCGyKcxQxMQfIQkJEi8MRjEZY-xvrV6WkEQ0um09OBZtpjp5D9BDXRhIHDeMMLKUSRCHNPCgdrBzi6gfERr4ZBISe51SR3sbsZ62B1XX799C1J_D1uiTuP0BSQ5-3g" sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 5. ТАЙМИНГ ================= -->
+<section  id="timeline">
+  <div class="container">
+    <div class="section__head" data-reveal>
+      <p class="section__label"></p>
+      <h2 class="section__title">Программа дня</h2>
+      <div class="section__divider"></div>
+      <p class="section__sub"></p>
+    </div>
+
+    <ul class="timeline">
+      <li class="timeline__item" data-reveal><span class="timeline__time">12:00</span><h3 class="timeline__name">Начало мероприятия</h3><p class="timeline__desc">Сбор гостей у ЗАГСа</p></li>
+      <li class="timeline__item" data-reveal><span class="timeline__time">12:15</span><h3 class="timeline__name">Церемония бракосочетания</h3><p class="timeline__desc">Официальное заключение брака</p></li>
+      <li class="timeline__item" data-reveal><span class="timeline__time">12:45</span><h3 class="timeline__name">Фотосессия с гостями</h3><p class="timeline__desc">Выездная фотосессия с гостями на локациях</p></li>
+      <li class="timeline__item" data-reveal><span class="timeline__time">14:30</span><h3 class="timeline__name">Трансфер до банкетного зала</h3><p class="timeline__desc">Отправление гостей до банкетного зала</p></li>
+      <li class="timeline__item" data-reveal><span class="timeline__time">15:30</span><h3 class="timeline__name">Welcome-зона</h3><p class="timeline__desc">Встреча с ведущим, прогулка по живописной территории, приветственный фуршет</p></li>
+      <li class="timeline__item" data-reveal><span class="timeline__time">17:00</span><h3 class="timeline__name">Начало Банкета</h3><p class="timeline__desc">Торжественное открытие вечера</p></li>
+      <li class="timeline__item" data-reveal><span class="timeline__time">23:00</span><h3 class="timeline__name">Завершение Банкета</h3><p class="timeline__desc">Благодарность гостям и прощальные объятия</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= 6. ДРЕСС-КОД ================= -->
+<section  id="dresscode">
+  <div class="container">
+    <div class="section__head" data-reveal>
+      <p class="section__label"></p>
+      <h2 class="section__title">Что надеть</h2>
+      <div class="section__divider"></div>
+      <p class="section__sub">Мы подготовили палитру и референсы образов, которые помогут поддержать стиль нашего торжества</p>
+    </div>
+
+
+    <!-- Женский дресс-код -->
+    <h2 class="dresscode-title" data-reveal>Ladies</h2>
+    
+     <!-- Палитра -->
+    <div class="dresscode-palette" data-reveal>
+      <span style="background:#9fecfc" title="Оранжевый"></span>
+      <span style="background:#7A8E2F" title="Оливковый"></span>
+      <span style="background:#B8C56A" title=""></span>
+      <span style="background:#D53D7A" title="Розовый"></span>
+      <span style="background:#FFC5C9" title="Нежно-розовый"></span>
+      <span style="background:#F5803A" title="Оранжевый"></span>
+      <span style="background:#FDAB55" title="Нежно-оранжевый"></span>
+      <span style="background:#FFD754" title="Желтый"></span>
+    </div>
+    <p class="dresscode__text" data-reveal>
+      Голубой · Оливковый · Розовый · Оранжевый · Жетлый 
+    </p>  
+    
+    <div class="dresscode-grid" data-reveal>
+      <img src="dresscode/girl5.jpg" alt="Платье 1">
+      <img src="dresscode/girl8.jpg" alt="Платье 2">
+      <img src="dresscode/girl3.jpg" alt="Платье 3">
+      <img src="dresscode/girl4.jpg" alt="Платье 4">
+      <img src="dresscode/girl1.jpg" alt="Платье 5">
+    </div>
+
+
+    <!-- Мужской дресс-код -->
+    <h2 class="dresscode-title" data-reveal>Gentlemen</h2>
+     <!-- Палитра -->
+    <div class="dresscode-palette" data-reveal>
+      <span style="background:#E2C8A7" title="Песочный"></span>
+      <span style="background:#F1DE93" title="Лимонный"></span>
+      <span style="background:#B9CBD7" title="Голубой"></span>
+      <span style="background:#164C94" title="Синий"></span>
+      <span style="background:#D1AFCA" title="Фиолетовый"></span>
+      <span style="background:#F17E77" title="Кораловый"></span>
+      <span style="background:#DA5B24" title="Оранжевый"></span>
+      <span style="background:#38281A" title="Шоколадный"></span>
+      <span style="background:#8D8D6B" title="Мудрец"></span>
+      <span style="background:#063825" title="Зеленый"></span>
+    </div>
+    <p class="dresscode__text" data-reveal>
+      Песочный · Лимонный · Синий · Фиолетовый · Кораловый · Оранжевый · Шоколадный · Зеленый
+    </p>
+    <div class="dresscode-grid" data-reveal>
+      <img src="dresscode/boy5.jpg" alt="Костюм 1">
+      <img src="dresscode/boy2.jpg" alt="Костюм 2">
+      <img src="dresscode/boy4.jpg" alt="Костюм 3">
+      <img src="dresscode/boy3.jpg" alt="Костюм 4">
+      <img src="dresscode/boy1.jpg" alt="Костюм 5">
+    </div>
+
+  </div>
+</section>
+<!-- ================= 7. ПОЖЕЛАНИЯ ================= -->
+<section  id="wishes">
+  <div class="container">
+    <div class="section__head" data-reveal>
+      <p class="section__label"></p>
+      <h2 class="section__title">Несколько просьб</h2>
+      <div class="section__divider"></div>
+      <p class="section__sub"></p>
+    </div>
+
+    <ul class="wishes-list">
+      <li data-reveal>
+        <div class="wishes-list__icon">💐</div>
+        <div>
+          <h3>Цветы</h3>
+          <p>Вместо цветов будем рады бутылочке вина, которую откроем в особенный семейный вечер</p>
+        </div>
+      </li>
+
+      <li data-reveal>
+        <div class="wishes-list__icon">🎁</div>
+        <div>
+          <h3>Подарки</h3>
+          <p>Самый ценный подарок для нас — ваше присутствие. Если же хочется большего, мы будем благодарны за вклад в наше первое совместное путешествие.</p>
+        </div>
+      </li>
+
+      <li data-reveal>
+        <div class="wishes-list__icon">📷</div>
+        <div>
+          <h3>Фотографии</h3>
+          <p>Мы будем бесконечно рады видеть ваши счастливые лица и искренние улыбки вживую, а не через экраны телефонов. Наш фотограф уже взял на себя ответственность запечатлеть лучшие кадры этого дня</p>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<!-- ================= 8. КОНТАКТЫ ================= -->
+<section id="contacts">
+  <div class="container">
+    <div class="section__head" data-reveal>
+      <p class="section__label"></p>
+      <h2 class="section__title">Контакты</h2>
+      <div class="section__divider"></div>
+      <p class="section__sub">
+        По любым вопросам, связанным со свадьбой, обращайтесь напрямую к нам —
+        мы всегда на связи и с радостью поможем.
+      </p>
+    </div>
+
+    <div class="contacts">
+      <!-- Жених -->
+      <article class="contact" data-reveal>
+        <div class="contact__photo">
+          <img src="photo/Nikita1.jpg" alt="Никита">
+        </div>
+        <h3 class="contact__name">Никита</h3>
+        <p class="contact__role">Жених</p>
+        <a class="contact__phone" href="tel:+79137105676">+7 (913) 710-56-76</a>
+        <div class="contact__links">
+          <a href="https://t.me/Ni_Whale_Os" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://vk.ru/ni_whale_os" target="_blank" rel="noopener">VK</a>
+        </div>
+      </article>
+
+      <!-- Невеста -->
+      <article class="contact" data-reveal>
+        <div class="contact__photo">
+          <img src="photo/photo_Karina1.jpg" alt="Карина">
+        </div>
+        <h3 class="contact__name">Карина</h3>
+        <p class="contact__role">Невеста</p>
+        <a class="contact__phone" href="tel:+79293821629">+7 (929) 382-16-29</a>
+        <div class="contact__links">
+          <a href="https://t.me/Karuha17" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://max.ru/u/f9LHodD0cOKa7hpOGVNddI5uUk6FWtWN2ewof0270gTSGQP1v0ZTUJsI1wI" target="_blank" rel="noopener">Max</a>
+        </div>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= 9. АНКЕТА ================= -->
+<section id="rsvp">
+  <div class="container">
+    <div class="section__head" data-reveal>
+      <p class="section__label">Анкета гостя</p>
+      <h2 class="section__title">Подтвердите участие</h2>
+      <div class="section__divider"></div>
+      <p class="section__sub">
+        Пожалуйста, подтвердите свое присутствие и заполните анкету до <b><span style="font-size: 17px;" > 20 декабря </span></b> —
+        так мы сможем всё подготовить и ничего не забыть
+      </p>
+    </div>
+
+    <div class="rsvp" data-reveal>
+      <form class="rsvp-form" id="rsvpForm">
+  <div class="rsvp-form__field">
+    <label class="rsvp-form__label" for="guest-name">Ваше имя и фамилия *</label>
+    <input type="text" id="guest-name" name="name" class="rsvp-form__input"
+           required placeholder="Иван Иванов">
+  </div>
+
+  <!-- 1. Присутствие -->
+  <div class="rsvp-form__field">
+    <span class="rsvp-form__label">Сможете ли присутствовать? *</span>
+    <div class="rsvp-form__options">
+      <label class="rsvp-form__option">
+        <input type="radio" name="attendance" value="С удовольствием приду" required>
+        <span>С удовольствием приду</span>
+      </label>
+      <label class="rsvp-form__option">
+        <input type="radio" name="attendance" value="К сожалению, не смогу">
+        <span>К сожалению, не смогу</span>
+      </label>
+    </div>
+  </div>
+
+  <!-- 2. С парой -->
+  <div class="rsvp-form__field">
+    <span class="rsvp-form__label">Планируете прийти с парой?</span>
+    <div class="rsvp-form__options">
+      <label class="rsvp-form__option">
+        <input type="radio" name="with_pair" value="Да"><span>Да</span>
+      </label>
+      <label class="rsvp-form__option">
+        <input type="radio" name="with_pair" value="Нет"><span>Нет</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="rsvp-form__field is-hidden" id="companionField">
+    <label class="rsvp-form__label" for="companion">Имя вашей половинки</label>
+    <input type="text" id="companion" name="companion" class="rsvp-form__input"
+           placeholder="Имя и фамилия">
+  </div>
+
+  <!-- 3. Дети -->
+  <div class="rsvp-form__field">
+    <span class="rsvp-form__label">Будут ли с вами дети?</span>
+    <div class="rsvp-form__options">
+      <label class="rsvp-form__option">
+        <input type="radio" name="children" value="Нет"><span>Нет</span>
+      </label>
+      <label class="rsvp-form__option">
+        <input type="radio" name="children" value="Да"><span>Да</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="rsvp-form__field is-hidden" id="childrenField">
+    <label class="rsvp-form__label" for="children-age">Сколько лет детям?</label>
+    <input type="text" id="children-age" name="children_age" class="rsvp-form__input"
+           placeholder="Например: 3 и 7 лет">
+  </div>
+
+  <!-- 4. Трансфер -->
+  <div class="rsvp-form__field">
+    <span class="rsvp-form__label">Нужен ли трансфер?</span>
+    <div class="rsvp-form__options">
+      <label class="rsvp-form__option">
+        <input type="radio" name="transfer" value="Да"><span>Да</span>
+      </label>
+      <label class="rsvp-form__option">
+        <input type="radio" name="transfer" value="Нет, я сам доеду"><span>Нет, я сам доеду</span>
+      </label>
+    </div>
+  </div>
+
+  <!-- 5. Еда / аллергии -->
+  <div class="rsvp-form__field">
+    <label class="rsvp-form__label" for="allergies">Есть ли ограничения в еде / аллергии?</label>
+    <textarea id="allergies" name="allergies" rows="2"
+              class="rsvp-form__input rsvp-form__textarea"
+              placeholder="Например: без мяса, аллергия на орехи"></textarea>
+  </div>
+
+  <!-- 6. Алкоголь -->
+  <div class="rsvp-form__field">
+    <label class="rsvp-form__label" for="alcohol">Какой алкоголь вы предпочитаете?</label>
+    <textarea id="alcohol" name="alcohol" rows="2"
+              class="rsvp-form__input rsvp-form__textarea"
+              placeholder="Например: красное вино, виски, безалкогольное"></textarea>
+  </div>
+
+  <button type="submit" class="rsvp__btn">Отправить анкету</button>
+  <p class="rsvp__note">Спасибо, что помогаете нам с подготовкой!</p>
+</form>
+
+<div class="rsvp-thanks" id="rsvpThanks" hidden>
+  <div class="rsvp-thanks__icon">💛</div>
+  <h3 class="rsvp-thanks__title">Спасибо!</h3>
+  <p class="rsvp-thanks__text">Мы получили вашу анкету и свяжемся, если что-то понадобится уточнить.</p>
+</div>
+
+      <div class="rsvp-thanks" id="rsvpThanks" hidden>
+        <div class="rsvp-thanks__icon">💛</div>
+        <h3 class="rsvp-thanks__title">Спасибо!</h3>
+        <p class="rsvp-thanks__text">Мы получили вашу анкету и свяжемся, если что-то понадобится уточнить.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ================= ФУТЕР ================= -->
+<footer class="footer">
+  <div class="footer__names">Никита &amp; Карина</div>
+  <div class="footer__date">07·07·2027</div>
+  <div class="footer__line"></div>
+  <p class="footer__note">Будем счастливы разделить этот день с вами.<br>С любовью, Н &amp; К</p>
+  <div class="footer__line"></div>
+  <p class="footer__note">Ni_Whale_0s</p>
+</footer>
+
+
+<!-- ================= МУЗЫКА ================= -->
+<audio id="bgMusic" loop preload="auto">
+  <source src="music/music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" id="musicBtn" type="button"
+        aria-label="Включить музыку" title="Включить музыку">
+  <!-- Иконка «нота» — показывается, когда музыка на паузе -->
+  <svg class="music-btn__icon music-btn__icon--note" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+  </svg>
+  <!-- Иконка «пауза» — показывается, когда музыка играет -->
+  <svg class="music-btn__icon music-btn__icon--pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+  </svg>
+</button>
+
+<!-- Скрипт -->
+<script src="script.js"></script>
+</body>
+</html>
